@@ -26,7 +26,7 @@ curl --silent \
 SCRIPT_RELEASE="$(get_release)"
 SUPPORT_LINK="https://discord.gg/buDBbSGJmQ"
 WIKI_LINK="https://github.com/Ferks-FK/ControlPanel-Installer/wiki"
-GITHUB_URL="https://raw.githubusercontent.com/RatNodes-Hosting/ControlPanel.gg-Installer/$SCRIPT_RELEASE"
+GITHUB_URL="https://raw.githubusercontent.com/RatNodes-Hosting-LLC/ControlPanel.gg-Installer/$SCRIPT_RELEASE"
 RANDOM_PASSWORD="$(openssl rand -base64 32)"
 MYSQL_PASSWORD=false
 CONFIGURE_SSL=false
